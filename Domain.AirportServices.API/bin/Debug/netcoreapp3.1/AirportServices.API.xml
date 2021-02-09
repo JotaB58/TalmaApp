@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AirportServices.API</name>
+    </assembly>
+    <members>
+        <member name="M:AirportServices.API.Controllers.AirplanesTypes.AirplanesTypesController.GetAllAirplanesTypes">
+            <summary>
+            This GET method return a list of airplanes
+            </summary>
+            <returns>A list of airplanes</returns>
+        </member>
+    </members>
+</doc>
