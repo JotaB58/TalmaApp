@@ -3,15 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30011.22
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AirportServices.API", "Domain.AirportServices.API\AirportServices.API.csproj", "{55C020C7-144A-42EE-8D21-6065FB478B1F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AirportServices.API", "Domain.AirportServices.API\AirportServices.API.csproj", "{55C020C7-144A-42EE-8D21-6065FB478B1F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Airport.Domain.Services", "Airport.Domain.Services\Airport.Domain.Services.csproj", "{E494ED14-1A62-4DA9-929E-CB69A1F0C824}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Airport.Domain.Services", "Airport.Domain.Services\Airport.Domain.Services.csproj", "{E494ED14-1A62-4DA9-929E-CB69A1F0C824}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Airport.Domain.BL", "Airport.Domain.BL\Airport.Domain.BL.csproj", "{9B7709B9-63EF-408D-AF79-3A78F414F88E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Airport.Domain.BL", "Airport.Domain.BL\Airport.Domain.BL.csproj", "{9B7709B9-63EF-408D-AF79-3A78F414F88E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Airport.Domain.DAL", "Airport.Domain.DAL\Airport.Domain.DAL.csproj", "{BD17D46A-7B24-43FE-A0FE-AF5A436F3B51}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Airport.Domain.DAL", "Airport.Domain.DAL\Airport.Domain.DAL.csproj", "{BD17D46A-7B24-43FE-A0FE-AF5A436F3B51}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Airport.Domain.Common", "Airport.Domain.Common\Airport.Domain.Common.csproj", "{320C728E-4960-46AE-AAC3-996E8123232A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Airport.Domain.Common", "Airport.Domain.Common\Airport.Domain.Common.csproj", "{320C728E-4960-46AE-AAC3-996E8123232A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Airport.Web", "Airport.Web\Airport.Web.csproj", "{5579227D-6C82-4EA2-8A55-B0CA7CAB876F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{320C728E-4960-46AE-AAC3-996E8123232A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{320C728E-4960-46AE-AAC3-996E8123232A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{320C728E-4960-46AE-AAC3-996E8123232A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5579227D-6C82-4EA2-8A55-B0CA7CAB876F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5579227D-6C82-4EA2-8A55-B0CA7CAB876F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5579227D-6C82-4EA2-8A55-B0CA7CAB876F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5579227D-6C82-4EA2-8A55-B0CA7CAB876F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
